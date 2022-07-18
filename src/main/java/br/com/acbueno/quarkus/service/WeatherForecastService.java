@@ -2,6 +2,8 @@ package br.com.acbueno.quarkus.service;
 
 import java.time.LocalDate;
 import javax.enterprise.context.ApplicationScoped;
+
+import io.quarkus.cache.CacheInvalidate;
 import io.quarkus.cache.CacheResult;
 
 @ApplicationScoped
